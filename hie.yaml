@@ -1,0 +1,10 @@
+cradle:
+  cabal:
+    - path: "src"
+      component: "lib:ghc-repl"
+
+    - path: "app/Main.hs"
+      component: "ghc-repl:exe:ghc-repl"
+
+    - path: "test"
+      component: "ghc-repl:test:ghc-repl-test"
